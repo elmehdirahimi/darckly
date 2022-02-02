@@ -1,0 +1,5 @@
+We are here on the page http://192.168.1.32/.hidden/ This is to look for the flag 
+among the many existing READMEs. 
+We will therefore use the scrapping method, ie recover the content of a web page using one 
+or more scripts. In our script (see script.py) we will retrieve all the READMEs then search 
+for the flag.
